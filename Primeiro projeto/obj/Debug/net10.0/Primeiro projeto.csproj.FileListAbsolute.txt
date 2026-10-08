@@ -1,0 +1,15 @@
+/workspaces/C-Learning/Primeiro projeto/bin/Debug/net10.0/Primeiro projeto
+/workspaces/C-Learning/Primeiro projeto/bin/Debug/net10.0/Primeiro projeto.deps.json
+/workspaces/C-Learning/Primeiro projeto/bin/Debug/net10.0/Primeiro projeto.runtimeconfig.json
+/workspaces/C-Learning/Primeiro projeto/bin/Debug/net10.0/Primeiro projeto.dll
+/workspaces/C-Learning/Primeiro projeto/bin/Debug/net10.0/Primeiro projeto.pdb
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.AssemblyInfoInputs.cache
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.AssemblyInfo.cs
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.csproj.CoreCompileInputs.cache
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.sourcelink.json
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.dll
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/refint/Primeiro projeto.dll
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.pdb
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/Primeiro projeto.genruntimeconfig.cache
+/workspaces/C-Learning/Primeiro projeto/obj/Debug/net10.0/ref/Primeiro projeto.dll
