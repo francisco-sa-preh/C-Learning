@@ -50,3 +50,19 @@ else
 {
     Console.WriteLine("São diferentes!");
 }
+
+//switch case
+
+int monthnumber;
+string monthName = Console.ReadLine()!; //falta a pergunta para o utilizador
+
+switch(monthName.ToLower()) //ToLower passa tudo para letras minusculas
+{
+    case "january":
+        monthnumber=1;
+        break;  //dentro do case não precisas de chavetas
+
+        case "february":
+        monthnumber=1;
+        break;
+}
