@@ -49,3 +49,32 @@ for(int i=0; i<10; i++)
     Console.WriteLine("Loading..."); // esta linha é ignorada quando i=5
 }
 
+//arrays
+
+int[] myIntArray = new int[5]; //can hold 5 ints
+
+myIntArray[0] = 5; //index 0 has the number 5
+myIntArray[1] = 6;
+myIntArray[2] = 25;
+myIntArray[3] = 1;
+myIntArray[4] = 31;
+
+//declare an array and set its elements
+
+int[] myIntArray2 = [5,12,13,14];
+
+string[] weekDays = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
+
+//array length
+
+Console.WriteLine(weekDays.Length); //não sei bem porque não tem (), mas suponho que seja porque isto é apenas uma propriedade
+
+//foreach loop... semelhante a um ciclo for, mas não precisas de saber/definir length
+
+foreach(var day in weekDays)
+{
+    Console.WriteLine(day);
+}
+
+
+
