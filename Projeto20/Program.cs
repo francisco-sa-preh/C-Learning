@@ -5,8 +5,11 @@
         static void Main(string[] args)
         {
             Dog myDog = new Dog();
-            myDog.Bark();
+            myDog.MakeSound();
             myDog.Eat(); //inherited method
+
+            Cat myCat = new Cat();
+            myCat.MakeSound();
         }
     }
 
@@ -17,13 +20,19 @@
             Console.WriteLine("Eating...");
         }
 
+        public virtual void MakeSound() //in the parent class we write virtual (same method)
+        {
+            Console.WriteLine("Animal makes a generic sound");
+        }
+
     }
 
     //Inheritance Class dog from calss animal and has a method Bark
     class Dog: Animal //inherited class (derived or child class) dog, it has all capabilities of the parant class (f.e. Eat)
     {
-        public void Bark()
+        public override void MakeSound() //in the derived class we write override (sane nethod)
         {
+            base.MakeSound(); //base keyword permite fazer (run) cw da "Animal makes a generic sound"
             Console.WriteLine("Barking...");
         }
     } //Type 1 inheritance - when there is a single inheritance
@@ -40,9 +49,9 @@
 
     //Type 3 inheritance - hierarchy, one base class with other depending classes
 
-    class Cat()
+    class Cat : Animal
     {
-        public void Miau()
+        public override void MakeSound()
         {
             Console.WriteLine("Miauing...");
         }
