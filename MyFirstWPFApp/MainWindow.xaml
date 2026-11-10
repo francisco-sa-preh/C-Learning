@@ -6,23 +6,35 @@
         xmlns:local="clr-namespace:MyFirstWPFApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="myGrid">
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="10"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
 
         <Label Grid.Row="1"
-               Grid.Column="1"
-               Content="Hello world"/>
+               Grid.Column="2"
+               Content="Title of App"
+               Grid.ColumnSpan="1"/>
+        <Label Grid.Row="2"
+               Grid.Column="2"
+               Content="Sample Text"/>
+        <Button Grid.Column="2" Content="A" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top" Height="50" Width="200"/>
+        
 
     </Grid>
 </Window>
